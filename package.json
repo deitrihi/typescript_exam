@@ -1,8 +1,15 @@
 {
   "dependencies": {
     "tsc-watch": "^4.5.0"
-  }, 
+  },
   "scripts": {
-    "start":"tsc-watch"
+    "start": "tsc-watch",
+    "build": "webpack --mode=none"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
   }
 }

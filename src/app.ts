@@ -4,3 +4,5 @@ function logName(name : string) {
 
 logName('Jack');
 logName('Machale');
+
+//const info = new Info('kim', 41);
