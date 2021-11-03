@@ -6,7 +6,7 @@ function log(msg:string) {
         CLog(e);
     }
 }
-log('deitrihi1234');
+log('deitrihi1234ddddd');
 class Info {
     _name : string;
     _age : number;
