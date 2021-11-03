@@ -3,7 +3,7 @@ function log(msg:string) {
     try {
         CLog(msg);
     } catch(e) {
-
+        CLog(e);
     }
 }
 log('deitrihi');
